@@ -1,0 +1,122 @@
+2022-04-06 15:04:33,661 INFO    MainThread:2093 [internal.py:wandb_internal():88] W&B internal server running at pid: 2093, started at: 2022-04-06 15:04:33.660789
+2022-04-06 15:04:33,664 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: check_version
+2022-04-06 15:04:33,664 INFO    WriterThread:2093 [datastore.py:open_for_write():80] open: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/run-3jz3z645.wandb
+2022-04-06 15:04:34,099 DEBUG   SenderThread:2093 [git.py:repo():33] git repository is invalid
+2022-04-06 15:04:34,100 DEBUG   SenderThread:2093 [sender.py:send():179] send: header
+2022-04-06 15:04:34,100 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: check_version
+2022-04-06 15:04:34,166 DEBUG   SenderThread:2093 [sender.py:send():179] send: run
+2022-04-06 15:04:34,170 DEBUG   SenderThread:2093 [git.py:repo():33] git repository is invalid
+2022-04-06 15:04:34,448 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: run_start
+2022-04-06 15:04:34,536 INFO    SenderThread:2093 [dir_watcher.py:__init__():168] watching files in: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files
+2022-04-06 15:04:34,537 INFO    SenderThread:2093 [sender.py:_start_run_threads():716] run started: 3jz3z645 with start time 1649225072
+2022-04-06 15:04:34,537 DEBUG   SenderThread:2093 [sender.py:send():179] send: summary
+2022-04-06 15:04:34,539 INFO    SenderThread:2093 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-04-06 15:04:35,513 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/wandb-summary.json
+2022-04-06 15:04:36,367 DEBUG   HandlerThread:2093 [meta.py:__init__():34] meta init
+2022-04-06 15:04:36,367 DEBUG   HandlerThread:2093 [meta.py:__init__():48] meta init done
+2022-04-06 15:04:36,367 DEBUG   HandlerThread:2093 [meta.py:probe():205] probe
+2022-04-06 15:04:36,374 DEBUG   HandlerThread:2093 [git.py:repo():33] git repository is invalid
+2022-04-06 15:04:36,374 DEBUG   HandlerThread:2093 [meta.py:_save_pip():52] save pip
+2022-04-06 15:04:36,376 DEBUG   HandlerThread:2093 [meta.py:_save_pip():66] save pip done
+2022-04-06 15:04:36,376 DEBUG   HandlerThread:2093 [meta.py:_save_conda():73] save conda
+2022-04-06 15:04:36,513 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/requirements.txt
+2022-04-06 15:04:36,514 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/conda-environment.yaml
+2022-04-06 15:04:39,514 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log
+2022-04-06 15:04:50,861 DEBUG   HandlerThread:2093 [meta.py:_save_conda():81] save conda done
+2022-04-06 15:04:50,861 DEBUG   HandlerThread:2093 [meta.py:probe():247] probe done
+2022-04-06 15:04:50,874 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:04:50,883 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:04:50,884 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: pause
+2022-04-06 15:04:50,890 INFO    HandlerThread:2093 [handler.py:handle_request_pause():545] stopping system metrics thread
+2022-04-06 15:04:51,521 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/conda-environment.yaml
+2022-04-06 15:04:51,522 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_created():216] file/dir created: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/wandb-metadata.json
+2022-04-06 15:04:51,705 DEBUG   SenderThread:2093 [sender.py:send():179] send: files
+2022-04-06 15:04:51,705 INFO    SenderThread:2093 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2022-04-06 15:04:51,706 DEBUG   SenderThread:2093 [sender.py:send():179] send: stats
+2022-04-06 15:04:52,375 INFO    Thread-11 :2093 [upload_job.py:push():137] Uploaded file /tmp/tmpjf52tifhwandb/2k80l2g5-wandb-metadata.json
+2022-04-06 15:04:52,908 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: resume
+2022-04-06 15:04:52,908 INFO    HandlerThread:2093 [handler.py:handle_request_resume():540] starting system metrics thread
+2022-04-06 15:04:55,523 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log
+2022-04-06 15:04:57,525 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log
+2022-04-06 15:04:59,526 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log
+2022-04-06 15:05:00,088 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: pause
+2022-04-06 15:05:00,089 INFO    HandlerThread:2093 [handler.py:handle_request_pause():545] stopping system metrics thread
+2022-04-06 15:05:00,601 DEBUG   SenderThread:2093 [sender.py:send():179] send: stats
+2022-04-06 15:05:01,527 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log
+2022-04-06 15:05:06,066 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:05:06,067 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:05:09,133 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: resume
+2022-04-06 15:05:09,133 INFO    HandlerThread:2093 [handler.py:handle_request_resume():540] starting system metrics thread
+2022-04-06 15:05:09,138 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: pause
+2022-04-06 15:05:09,138 INFO    HandlerThread:2093 [handler.py:handle_request_pause():545] stopping system metrics thread
+2022-04-06 15:05:10,749 DEBUG   SenderThread:2093 [sender.py:send():179] send: stats
+2022-04-06 15:05:14,315 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: resume
+2022-04-06 15:05:14,315 INFO    HandlerThread:2093 [handler.py:handle_request_resume():540] starting system metrics thread
+2022-04-06 15:05:15,543 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log
+2022-04-06 15:05:17,586 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: pause
+2022-04-06 15:05:17,588 INFO    HandlerThread:2093 [handler.py:handle_request_pause():545] stopping system metrics thread
+2022-04-06 15:05:18,587 DEBUG   SenderThread:2093 [sender.py:send():179] send: stats
+2022-04-06 15:05:19,550 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log
+2022-04-06 15:05:21,242 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:05:21,242 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:05:36,419 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:05:36,420 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:05:51,596 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:05:51,597 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:06:06,772 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:06:06,773 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:06:21,950 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:06:21,950 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:06:37,148 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:06:37,149 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:06:52,327 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:06:52,328 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:07:07,506 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:07:07,507 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:07:23,279 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:07:23,280 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:07:38,466 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:07:38,467 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:07:53,648 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:07:53,648 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:08:08,827 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:08:08,828 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:08:24,010 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:08:24,010 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:08:39,191 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:08:39,191 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:08:54,551 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:08:54,552 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:09:09,731 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:09:09,732 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:09:10,687 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: resume
+2022-04-06 15:09:10,687 INFO    HandlerThread:2093 [handler.py:handle_request_resume():540] starting system metrics thread
+2022-04-06 15:09:10,865 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: pause
+2022-04-06 15:09:10,866 INFO    HandlerThread:2093 [handler.py:handle_request_pause():545] stopping system metrics thread
+2022-04-06 15:09:11,704 DEBUG   SenderThread:2093 [sender.py:send():179] send: stats
+2022-04-06 15:09:12,692 INFO    Thread-8  :2093 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log
+2022-04-06 15:09:24,936 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:09:24,937 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:09:40,117 DEBUG   HandlerThread:2093 [handler.py:handle_request():124] handle_request: stop_status
+2022-04-06 15:09:40,117 DEBUG   SenderThread:2093 [sender.py:send_request():193] send_request: stop_status
+2022-04-06 15:09:47,369 WARNING MainThread:2093 [internal.py:is_dead():366] Internal process exiting, parent pid 1117 disappeared
+2022-04-06 15:09:47,370 ERROR   MainThread:2093 [internal.py:wandb_internal():143] Internal process shutdown.
+2022-04-06 15:09:47,718 INFO    SenderThread:2093 [sender.py:finish():947] shutting down sender
+2022-04-06 15:09:47,718 INFO    SenderThread:2093 [dir_watcher.py:finish():282] shutting down directory watcher
+2022-04-06 15:09:47,722 INFO    HandlerThread:2093 [handler.py:finish():658] shutting down handler
+2022-04-06 15:09:47,794 INFO    WriterThread:2093 [datastore.py:close():288] close: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/run-3jz3z645.wandb
+2022-04-06 15:09:48,700 INFO    SenderThread:2093 [dir_watcher.py:finish():312] scan: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files
+2022-04-06 15:09:48,700 INFO    SenderThread:2093 [dir_watcher.py:finish():318] scan save: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/config.yaml config.yaml
+2022-04-06 15:09:48,701 INFO    SenderThread:2093 [dir_watcher.py:finish():318] scan save: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/requirements.txt requirements.txt
+2022-04-06 15:09:48,701 INFO    SenderThread:2093 [dir_watcher.py:finish():318] scan save: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/conda-environment.yaml conda-environment.yaml
+2022-04-06 15:09:48,701 INFO    SenderThread:2093 [dir_watcher.py:finish():318] scan save: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/wandb-metadata.json wandb-metadata.json
+2022-04-06 15:09:48,701 INFO    SenderThread:2093 [dir_watcher.py:finish():318] scan save: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log output.log
+2022-04-06 15:09:48,701 INFO    SenderThread:2093 [dir_watcher.py:finish():318] scan save: /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/wandb-summary.json wandb-summary.json
+2022-04-06 15:09:48,701 INFO    SenderThread:2093 [file_pusher.py:finish():177] shutting down file pusher
+2022-04-06 15:09:48,701 INFO    SenderThread:2093 [file_pusher.py:join():182] waiting for file pusher
+2022-04-06 15:09:49,323 INFO    Thread-16 :2093 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/config.yaml
+2022-04-06 15:09:49,369 INFO    Thread-17 :2093 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/requirements.txt
+2022-04-06 15:09:49,409 INFO    Thread-19 :2093 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/output.log
+2022-04-06 15:09:49,478 INFO    Thread-20 :2093 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/wandb-summary.json
+2022-04-06 15:09:49,478 INFO    Thread-18 :2093 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_CNN_tutorial/wandb/run-20220406_150432-3jz3z645/files/conda-environment.yaml
+2022-04-06 15:09:49,926 INFO    MainThread:2093 [internal.py:handle_exit():78] Internal process exited

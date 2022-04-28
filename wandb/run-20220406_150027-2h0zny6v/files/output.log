@@ -1,0 +1,8 @@
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+
+
+validation:  80%|███████▉  | 479/600 [00:04<00:01, 77.43it/s]
+
+validation: 100%|██████████| 600/600 [00:07<00:00, 84.69it/s]
+MLPWithDropout

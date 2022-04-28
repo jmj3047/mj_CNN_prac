@@ -1,0 +1,6 @@
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+
+validation:   0%|          | 0/600 [00:02<?, ?it/s]
+validation:   0%|          | 0/600 [00:00<?, ?it/s]
+The tensorboard extension is already loaded. To reload it, use:

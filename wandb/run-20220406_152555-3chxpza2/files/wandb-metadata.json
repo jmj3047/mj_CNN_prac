@@ -1,0 +1,28 @@
+{
+    "os": "Linux-5.3.0-64-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2022-04-06T06:26:05.115313",
+    "startedAt": "2022-04-06T06:25:55.986952",
+    "docker": null,
+    "gpu": "NVIDIA TITAN Xp",
+    "gpu_count": 4,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"09e8d26e-c571-42a7-b4b0-70deee42f48f\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=/tmp/tmp-15683xsgphA7kMLSn.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "langtech",
+    "username": "jmj3047",
+    "executable": "/home/jmj3047/anaconda3/bin/python"
+}

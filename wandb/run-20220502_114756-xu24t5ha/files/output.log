@@ -1,0 +1,35 @@
+
+validation:   0%|          | 0/600 [00:00<?, ?it/s]
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+layer_1:
+  conv2d_in_channels: 1
+  conv2d_out_channels: 32
+  conv2d_kernel_size: 3
+  conv2d_padding: 1
+  maxpool2d_kernel_size: 2
+  maxpool2d_stride: 2
+layer_2:
+  conv2d_in_channels: 32
+  conv2d_out_channels: 64
+  conv2d_kernel_size: 3
+  conv2d_padding: 0
+  maxpool2d_kernel_size: 2
+  maxpool2d_stride: 1
+fc_1:
+  in_features: 7744
+  out_features: 512
+fc_2:
+  in_features: 512
+  out_features: 128
+fc_3:
+  in_features: 128
+  out_features: 10
+dropout_prob: 0.25
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+validation:   0%|          | 0/600 [00:00<?, ?it/s]
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+validation:   0%|          | 0/600 [00:00<?, ?it/s]
+CNN

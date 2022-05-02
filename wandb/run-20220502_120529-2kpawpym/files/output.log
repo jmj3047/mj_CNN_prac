@@ -1,0 +1,201 @@
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+validation:   0%|          | 0/600 [00:00<?, ?it/s]/home/jmj3047/anaconda3/lib/python3.8/site-packages/torch/nn/functional.py:1320: UserWarning: dropout2d: Received a 2-D input to dropout2d, which is deprecated and will result in an error in a future release. To retain the behavior and silence this warning, please use dropout instead. Note that dropout2d exists to provide channel-wise dropout on inputs with 2 spatial dimensions, a channel dimension, and an optional batch dimension (i.e. 3D or 4D inputs).
+  warnings.warn(warn_msg)
+validation:  65%|██████▌   | 391/600 [00:02<00:01, 179.09it/s]
+1 epoch, 0 step: val_loss: 0.2308683544397354, val_acc: 0.09549988061189651
+Validation loss decreased (inf --> 0.230868).  Saving model ...
+validation: 100%|██████████| 600/600 [00:03<00:00, 181.54it/s]
+
+train:  18%|█▊        | 95/540 [00:02<00:09, 49.43it/s]
+
+train:  33%|███▎      | 179/540 [00:04<00:08, 42.44it/s]
+
+train:  49%|████▉     | 267/540 [00:06<00:05, 48.79it/s]
+
+train:  64%|██████▍   | 347/540 [00:08<00:04, 47.11it/s]
+
+train:  79%|███████▉  | 427/540 [00:10<00:03, 31.74it/s]
+
+train: 100%|██████████| 540/540 [00:13<00:00, 39.87it/s]
+validation:  36%|███▋      | 219/600 [00:01<00:01, 221.44it/s]
+2 epoch, 540 step: val_loss: 0.0458122119307518, val_acc: 0.8303320407867432
+validation: 100%|██████████| 600/600 [00:03<00:00, 186.89it/s]
+train:   0%|          | 0/540 [00:00<?, ?it/s]
+
+train:  15%|█▌        | 83/540 [00:01<00:10, 43.58it/s]
+
+
+train:  46%|████▋     | 251/540 [00:05<00:06, 47.31it/s]
+
+train:  62%|██████▏   | 337/540 [00:08<00:04, 44.44it/s]
+
+train:  78%|███████▊  | 421/540 [00:10<00:02, 48.77it/s]
+
+train: 100%|██████████| 540/540 [00:12<00:00, 41.95it/s]
+validation:  36%|███▋      | 218/600 [00:01<00:02, 179.57it/s]
+3 epoch, 1080 step: val_loss: 0.033912625163793564, val_acc: 0.8769978284835815
+validation: 100%|██████████| 600/600 [00:03<00:00, 199.69it/s]
+train:   0%|          | 1/540 [00:00<01:29,  6.04it/s]
+
+train:  15%|█▌        | 81/540 [00:02<00:09, 49.76it/s]
+
+train:  30%|███       | 164/540 [00:04<00:08, 44.59it/s]
+
+train:  47%|████▋     | 252/540 [00:06<00:06, 47.54it/s]
+
+
+train:  77%|███████▋  | 417/540 [00:10<00:02, 46.91it/s]
+
+train:  93%|█████████▎| 503/540 [00:12<00:00, 43.66it/s]
+train: 100%|██████████| 540/540 [00:13<00:00, 40.76it/s]
+
+validation:  86%|████████▌ | 513/600 [00:02<00:00, 184.45it/s]
+4 epoch, 1620 step: val_loss: 0.029212987050414085, val_acc: 0.8926643133163452
+validation: 100%|██████████| 600/600 [00:03<00:00, 172.83it/s]
+train:  10%|█         | 54/540 [00:01<00:13, 36.16it/s]
+
+train:  27%|██▋       | 146/540 [00:03<00:07, 49.33it/s]
+
+train:  41%|████      | 221/540 [00:05<00:06, 47.01it/s]
+
+train:  55%|█████▌    | 299/540 [00:07<00:07, 30.87it/s]
+
+
+train:  88%|████████▊ | 476/540 [00:11<00:01, 52.75it/s]
+train: 100%|██████████| 540/540 [00:13<00:00, 41.01it/s]
+
+validation:  71%|███████▏  | 428/600 [00:02<00:00, 175.74it/s]
+5 epoch, 2160 step: val_loss: 0.02805294655263424, val_acc: 0.8988320231437683
+validation: 100%|██████████| 600/600 [00:03<00:00, 182.70it/s]
+train:   7%|▋         | 38/540 [00:00<00:10, 47.45it/s]
+
+train:  22%|██▏       | 121/540 [00:02<00:08, 47.46it/s]
+
+train:  37%|███▋      | 202/540 [00:05<00:08, 39.18it/s]
+
+train:  54%|█████▍    | 294/540 [00:07<00:05, 47.18it/s]
+
+train:  68%|██████▊   | 367/540 [00:09<00:03, 43.32it/s]
+
+train: 100%|██████████| 540/540 [00:12<00:00, 42.23it/s]
+
+validation:  71%|███████   | 425/600 [00:02<00:00, 227.82it/s]
+6 epoch, 2700 step: val_loss: 0.029079174622893333, val_acc: 0.8958314061164856
+EarlyStopping counter: 1 out of 3
+validation: 100%|██████████| 600/600 [00:03<00:00, 194.81it/s]
+train:   5%|▌         | 29/540 [00:01<00:13, 39.09it/s]
+
+
+train:  37%|███▋      | 199/540 [00:04<00:06, 49.54it/s]
+
+train:  55%|█████▍    | 296/540 [00:07<00:04, 54.73it/s]
+
+train:  69%|██████▉   | 372/540 [00:09<00:04, 38.59it/s]
+
+train:  85%|████████▌ | 460/540 [00:11<00:01, 50.01it/s]
+train: 100%|██████████| 540/540 [00:13<00:00, 41.12it/s]
+
+validation:  62%|██████▏   | 374/600 [00:02<00:01, 194.15it/s]
+7 epoch, 3240 step: val_loss: 0.026252225041389465, val_acc: 0.9081649780273438
+validation: 100%|██████████| 600/600 [00:03<00:00, 174.34it/s]
+train:   4%|▍         | 21/540 [00:00<00:12, 42.31it/s]
+
+train:  14%|█▎        | 73/540 [00:02<00:13, 34.24it/s]
+
+train:  29%|██▉       | 156/540 [00:03<00:09, 39.01it/s]
+
+
+train:  61%|██████    | 329/540 [00:08<00:04, 47.93it/s]
+
+train:  76%|███████▌  | 408/540 [00:10<00:03, 43.32it/s]
+
+train: 100%|██████████| 540/540 [00:13<00:00, 41.03it/s]
+
+validation:  97%|█████████▋| 584/600 [00:03<00:00, 192.57it/s]
+8 epoch, 3780 step: val_loss: 0.026193786412477493, val_acc: 0.911665141582489
+Validation loss decreased (0.026252 --> 0.026194).  Saving model ...
+validation: 100%|██████████| 600/600 [00:03<00:00, 183.60it/s]
+train:  12%|█▏        | 64/540 [00:01<00:10, 45.24it/s]
+
+train:  27%|██▋       | 145/540 [00:03<00:08, 44.20it/s]
+
+train:  41%|████▏     | 224/540 [00:05<00:12, 25.56it/s]
+
+
+train:  75%|███████▍  | 404/540 [00:09<00:02, 46.66it/s]
+
+train:  90%|█████████ | 488/540 [00:11<00:01, 44.15it/s]
+train: 100%|██████████| 540/540 [00:13<00:00, 41.07it/s]
+
+validation:  81%|████████  | 485/600 [00:02<00:00, 219.35it/s]
+9 epoch, 4320 step: val_loss: 0.02689039334654808, val_acc: 0.9084977507591248
+validation: 100%|██████████| 600/600 [00:03<00:00, 181.11it/s]
+train:  10%|█         | 55/540 [00:01<00:12, 40.04it/s]
+
+train:  26%|██▌       | 138/540 [00:03<00:08, 49.64it/s]
+
+train:  40%|████      | 217/540 [00:05<00:06, 46.30it/s]
+
+train:  56%|█████▌    | 301/540 [00:07<00:06, 37.53it/s]
+
+
+train:  89%|████████▊ | 479/540 [00:11<00:01, 50.93it/s]
+train: 100%|██████████| 540/540 [00:12<00:00, 42.13it/s]
+
+validation:  75%|███████▌  | 452/600 [00:02<00:00, 192.37it/s]
+10 epoch, 4860 step: val_loss: 0.02706300839781761, val_acc: 0.9099984169006348
+validation: 100%|██████████| 600/600 [00:03<00:00, 165.62it/s]
+train:   7%|▋         | 37/540 [00:00<00:10, 47.96it/s]
+
+train:  21%|██▏       | 116/540 [00:02<00:11, 37.04it/s]
+
+train:  38%|███▊      | 205/540 [00:05<00:06, 52.26it/s]
+
+train:  54%|█████▍    | 293/540 [00:07<00:04, 51.28it/s]
+
+train:  70%|██████▉   | 377/540 [00:09<00:05, 31.58it/s]
+
+
+train: 100%|██████████| 540/540 [00:12<00:00, 43.03it/s]
+CNN(
+  (layer1): Sequential(
+    (0): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool2d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  )
+  (fc1): Linear(in_features=7744, out_features=512, bias=True)
+  (fc2): Linear(in_features=512, out_features=128, bias=True)
+  (fc3): Linear(in_features=128, out_features=10, bias=True)
+  (dropout): Dropout2d(p=0.25, inplace=False)
+)
+testing:   0%|          | 0/100 [00:00<?, ?it/s]
+CNN(
+  (layer1): Sequential(
+    (0): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool2d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  )
+  (fc1): Linear(in_features=7744, out_features=512, bias=True)
+  (fc2): Linear(in_features=512, out_features=128, bias=True)
+  (fc3): Linear(in_features=128, out_features=10, bias=True)
+  (dropout): Dropout2d(p=0.25, inplace=False)
+)
+testing:   0%|          | 0/100 [00:00<?, ?it/s]
+testing:   0%|          | 0/100 [00:00<?, ?it/s]/home/jmj3047/anaconda3/lib/python3.8/site-packages/torch/nn/functional.py:1320: UserWarning: dropout2d: Received a 2-D input to dropout2d, which is deprecated and will result in an error in a future release. To retain the behavior and silence this warning, please use dropout instead. Note that dropout2d exists to provide channel-wise dropout on inputs with 2 spatial dimensions, a channel dimension, and an optional batch dimension (i.e. 3D or 4D inputs).
+  warnings.warn(warn_msg)
+testing: 100%|██████████| 100/100 [00:01<00:00, 53.74it/s]

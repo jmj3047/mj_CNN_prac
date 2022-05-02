@@ -1,0 +1,34 @@
+{
+    "os": "Linux-5.3.0-64-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2022-05-02T02:45:48.362021",
+    "startedAt": "2022-05-02T02:45:39.106033",
+    "docker": null,
+    "gpu": "NVIDIA TITAN Xp",
+    "gpu_count": 4,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"c5c7b1ea-dade-4d6a-a89a-860f20a3cdf2\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=/tmp/tmp-5603SKDcBexzBdEg.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/jmj3047/mj_CNN_prac.git",
+        "commit": "246bd6a3c78f7853a3bdc1f1571a3642987b1174"
+    },
+    "email": "jmj3047@naver.com",
+    "root": "/home/jmj3047/mj_CNN_prac",
+    "host": "langtech",
+    "username": "jmj3047",
+    "executable": "/home/jmj3047/anaconda3/bin/python"
+}
